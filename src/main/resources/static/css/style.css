@@ -1,0 +1,129 @@
+body{
+  background-color: #dcdcdc;
+}
+
+.cobee-header{
+  padding-top: constant(safe-area-inset-top); /* iOS 11.0 */
+  padding-top: env(safe-area-inset-top); /* iOS 11.2 */
+}
+
+.carousel-inner img {
+  margin: auto;
+}
+.carousel {
+  margin: 0 auto;
+}
+
+.navbar {
+  background: #499ca3 ;
+  background: linear-gradient(51deg, #499ca3 0%, #3ebf95 100%);
+  padding: 15px;
+  border-bottom: 2px solid #fff;
+  padding-top: 15px;
+  padding-top: constant(safe-area-inset-top); /* iOS 11.0 */
+  padding-top: env(safe-area-inset-top); /* iOS 11.2 */
+}
+
+.color-background{
+  background: linear-gradient(51deg, #499ca3 0%, #3ebf95 100%);
+  color:white;
+}
+
+.btn-cobee{
+    color: #fff;
+    background-color: #3ebd95;
+    border-color: #489ea2;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.leaflet-container {
+    overflow: hidden;
+    position: sticky!important;
+}
+
+.navbar button svg {
+  fill: #ffffff;
+}
+
+.navbar-login-button{
+    color: #f8f9fa;
+    border-color: #f8f9fa;
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    vertical-align: middle;
+    user-select: none;
+    background-color: transparent;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+    border-style: solid;
+    border-width: 1px;
+}
+
+button:focus, input[type="button"]:focus {
+    outline: none;
+}
+
+.navbar-footer{
+  background: rgb(120, 10, 143);
+  background: linear-gradient(51deg, #499ca3 0%, #3ebf95 100%);
+  padding: 15px;
+}
+
+.navicon {
+  max-width: 25px;
+}
+
+.navicon+.navicon {
+  margin-left: 50px
+}
+
+.navbar-nav li a:hover {
+  color: #1abc9c !important;
+}
+
+.navicon-news {
+  max-width: 30px;
+}
+
+.navicon-news+.navicon-news {
+  margin-left: 80px
+}
+
+.btn-outline-secondary {
+    color: #ffffff;
+    border-color: #ffffff;
+}
+
+.regist-text {
+  margin-top: 30px;
+  font-size: 13px font-size: 13px;
+  text-shadow: 0px 0px 10px #ffffffa8;
+}
+
+.login-gender-button-active {
+  width: 32%!important;
+  border: solid;
+  padding: 5px;
+  background-color: #fff;
+  border-color: #fff;
+  color: #464d5d;
+}
+
+.login-gender-button-disabled {
+  width: 32%!important;
+  border: solid;
+  padding: 5px;
+  border-color: #676f79;
+  background-color: #676f79;
+  color: rgb(255, 255, 255);
+}
+
+input[type="file"] {
+    display: none;
+}
